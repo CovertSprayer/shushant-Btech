@@ -1,0 +1,25 @@
+/* id > class > element > universal(*) */
+
+h1{
+    color: red;
+}
+
+#special{
+    color: aqua;
+}
+
+.heading{
+    color: orange;
+}
+
+h1{
+    color: teal;
+}
+
+*{
+    color: green;
+}
+
+p{
+    color: black;
+}

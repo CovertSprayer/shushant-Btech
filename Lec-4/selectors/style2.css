@@ -1,0 +1,67 @@
+/* ----------- descendent combinators */
+div p span{
+    color: red;
+}
+
+/* -------------------- child combinator */
+/* ul>li{
+    color: red;
+} */
+
+/* ----------------- immediate sibling */
+/* li+li{
+    color: red;
+} */
+
+/* ---------------- general sibling */
+/* li~li{
+    color: red;
+} */
+
+
+
+/* ---------- pseudo selectors */
+a:link{
+    color: aqua;
+}
+
+a:visited{
+    color: orange;
+}
+
+a:hover{
+    border: 1px solid black;
+    color: black;
+}
+
+a:active{
+    color: green;
+}
+
+#movies li:first-child{
+    /* color: red; */
+}
+
+#movies li:last-child{
+    /* color: orange; */
+}
+
+#movies li:nth-child(2n+1){
+    background-color: gray;
+}
+#movies li:nth-child(2n){
+    background-color: rgb(203, 203, 203);
+}
+
+/* --------------- pseudo elements */
+div p::first-letter{
+    font-size: 50px;
+}
+
+#movies li::before{
+    content: '😀';
+}
+
+#movies li::after{
+    content: '😎';
+}

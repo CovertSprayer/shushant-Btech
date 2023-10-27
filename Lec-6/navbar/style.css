@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    padding: 20px 70px;
+    display: flex;
+    background-color: #FFC017;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+
+nav img{
+    /* border: 2px solid black; */
+    height: 40px;
+}
+
+.nav-links ul{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+ul li:last-child{
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 8px 14px;
+    background-color: black;
+}
+
+ul li:last-child a{
+    color: white;
+}

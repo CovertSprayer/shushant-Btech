@@ -1,0 +1,50 @@
+.parent{
+    border: 2px solid black;
+    margin: 70px 10px;
+    position: relative;
+}
+
+.parent div{
+    border: 2px solid red;
+    margin: 5px;
+}
+
+/* .child-1{
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+} */
+
+.child-2{
+    background-color: aqua;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+.child-3{
+    background-color: teal;
+    position: absolute;
+    left: 50px;
+    top: 10px;
+}
+
+.chat{
+    border: 2px solid black;
+    width: 210px;
+    height: 250px;
+    background-color: aquamarine;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.temp{
+    border: 2px solid black;
+    padding: 10px;
+    background-color: palevioletred;
+    position: sticky;
+    top: 10px;
+}
+

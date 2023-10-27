@@ -1,0 +1,11 @@
+.container{
+    width: 200px;
+    border: 2px solid black;
+}
+
+span{
+    display: inline-block;
+    border: 2px solid red;
+    width: 200px;
+    height: 200px;
+}
