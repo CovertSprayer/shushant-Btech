@@ -40,3 +40,23 @@ ul li:last-child{
 ul li:last-child a{
     color: white;
 }
+
+@media (max-width:800px){
+    /* .nav-links{
+        display: none;
+    } */
+    nav{
+        padding: 20px;
+    }
+}
+
+@media (max-width:670px){
+    nav img{
+        height: 30px;
+    }
+}
+@media (max-width:620px){
+    .nav-links{
+        display: none;
+    }
+}
