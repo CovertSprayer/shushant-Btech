@@ -16,6 +16,8 @@ console.log(typeof c);
 var isvalid = false;
 console.log(typeof isvalid);
 
+
+// ------------------ string
 var str1 = "This is some string";
 var str2 = 'T';
 
