@@ -1,0 +1,35 @@
+.container{
+    width: 80vw;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+body{
+    font-family: 'comic sans MS';
+}
+
+.container h2{
+    text-align: center;
+}
+
+.task{
+    margin: 10px 0;
+}
+
+.task p{
+    display: inline;
+}
+
+/* .list{
+    border: 2px solid red;
+} */
+
+
+.line{
+    text-decoration: line-through;
+}
+
+.r-btn{
+    font-size: 0.8rem;
+    cursor: pointer;
+}
